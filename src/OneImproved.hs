@@ -2,7 +2,7 @@
 -- I rewrote this with https://github.com/glguy/advent2018/blob/master/execs/Day01.hs solution
 -- to learn some more function composition
 
-module One where
+module OneImproved where
 
 import           Data.List                      ( find )
 import qualified Data.Set                      as S
