@@ -35,7 +35,7 @@ inputLine2Fn (x : xs) = case x of
     '-' -> minus (read xs)
     _   -> plus 0
 
--- Converts a list of input lines to a list of partially applied functions
+-- | Converts a list of input lines to a list of partially applied functions
 inputLinesToListOfFn :: [String] -> [Int -> Int]
 inputLinesToListOfFn = fmap inputLine2Fn
 
